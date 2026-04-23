@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram name="Página-1" id="26aM3gqhRwyQhJ5ae0vu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-23" parent="1" style="swimlane;startSize=25;fillColor=#fff0eb;strokeColor=#993C1D;fontColor=#993C1D;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="lógica de negocio" vertex="1">
+          <mxGeometry height="280" width="1080" x="224" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-24" parent="Img8a5IOjyJ7T48MLb8S-23" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffd5c0;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=11;align=center;" value="&lt;b&gt;Gestión de Usuarios&lt;/b&gt;&lt;br&gt;Registro · roles&lt;br&gt;RBAC · N:M rutas" vertex="1">
+          <mxGeometry height="100" width="230" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-25" parent="Img8a5IOjyJ7T48MLb8S-23" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffd5c0;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=11;align=center;" value="&lt;b&gt;Rastreo GPS&lt;/b&gt;&lt;br&gt;Coordenadas · desvíos&lt;br&gt;Inactividad &gt;5 min&lt;br&gt;RF4.1.1" vertex="1">
+          <mxGeometry height="100" width="230" x="285" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-26" parent="Img8a5IOjyJ7T48MLb8S-23" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffd5c0;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=11;align=center;" value="&lt;b&gt;Gestión de Alertas&lt;/b&gt;&lt;br&gt;Desvío · inactividad&lt;br&gt;Zonas guardadas&lt;br&gt;RF3.6" vertex="1">
+          <mxGeometry height="100" width="230" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-27" parent="Img8a5IOjyJ7T48MLb8S-23" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffd5c0;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=11;align=center;" value="&lt;b&gt;Historial de Trayectos&lt;/b&gt;&lt;br&gt;Filtros · reportes&lt;br&gt;RF5 · RF9.5" vertex="1">
+          <mxGeometry height="100" width="255" x="795" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-28" parent="Img8a5IOjyJ7T48MLb8S-23" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffd5c0;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=11;align=center;" value="&lt;b&gt;Soporte Técnico&lt;/b&gt;&lt;br&gt;Tickets RF7.1.1 — Pendiente / En proceso / Resuelto" vertex="1">
+          <mxGeometry height="90" width="490" x="285" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-20" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-15" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="624" y="650" />
+              <mxPoint x="624" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-21" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-16" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="882" y="680" />
+              <mxPoint x="882" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-18" parent="1" style="text;html=1;strokeColor=none;fillColor=#d5f5e8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#0F6E56;fontStyle=2;" value="↑ SSE tiempo real RF3.3 — GPS → App Padre y Panel Admin" vertex="1">
+          <mxGeometry height="22" width="760" x="404" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-31" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-26" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="931" />
+              <mxPoint x="881" y="931" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-30" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-25" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-35" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="627" y="920" />
+              <mxPoint x="627" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-1" parent="1" style="swimlane;startSize=25;fillColor=#f5f0ff;strokeColor=#534AB7;fontColor=#534AB7;fontSize=11;fontStyle=1;swimlaneLine=1;dashed=1;dashPattern=8 4;" value="capa de presentación" vertex="1">
+          <mxGeometry height="160" width="1080" x="224" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-2" parent="Img8a5IOjyJ7T48MLb8S-1" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;align=center;" value="&lt;b&gt;App Padre&lt;/b&gt;&lt;br&gt;&lt;i&gt;«app móvil»&lt;/i&gt;&lt;br&gt;React Native · Android&lt;br&gt;Play Store" vertex="1">
+          <mxGeometry height="100" width="290" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-3" parent="Img8a5IOjyJ7T48MLb8S-1" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;align=center;" value="&lt;b&gt;Panel Administrador&lt;/b&gt;&lt;br&gt;&lt;i&gt;«web admin»&lt;/i&gt;&lt;br&gt;React Native Web&lt;br&gt;NGINX servidor estático" vertex="1">
+          <mxGeometry height="100" width="290" x="390" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-4" parent="Img8a5IOjyJ7T48MLb8S-1" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;align=center;" value="&lt;b&gt;App Estudiante&lt;/b&gt;&lt;br&gt;&lt;i&gt;«app móvil»&lt;/i&gt;&lt;br&gt;Expo · Android&lt;br&gt;GPS en segundo plano (RF3.1.2)" vertex="1">
+          <mxGeometry height="100" width="290" x="750" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-5" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#666666;" target="Img8a5IOjyJ7T48MLb8S-6" value="HTTPS · JWT · Puerto 443">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-6" parent="1" style="swimlane;startSize=25;fillColor=#dae8fc;strokeColor=#185FA5;fontColor=#185FA5;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="api gateway" vertex="1">
+          <mxGeometry height="150" width="1080" x="224" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-7" parent="Img8a5IOjyJ7T48MLb8S-6" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#b3d9ff;strokeColor=#185FA5;fontColor=#042C53;fontSize=11;align=center;" value="&lt;b&gt;NGINX&lt;/b&gt;&lt;br&gt;&lt;i&gt;«API Gateway»&lt;/i&gt;&lt;br&gt;Enrutamiento · autenticación JWT · SSL/TLS · Rate limiting · Balanceo de carga" vertex="1">
+          <mxGeometry height="90" width="590" x="240" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-8" parent="1" style="text;html=1;strokeColor=none;fillColor=#e3f2fd;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#185FA5;fontStyle=2;" value="🔒 Spring Security — JWT · RBAC · Auditoría RF8 — aplicado en cada servicio" vertex="1">
+          <mxGeometry height="25" width="760" x="404" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-9" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-7" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-10" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-7" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-11" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-7" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-12" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-7" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-13" parent="1" style="swimlane;startSize=25;fillColor=#e6fff5;strokeColor=#0F6E56;fontColor=#0F6E56;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="capa de servicios (backend)" vertex="1">
+          <mxGeometry height="160" width="1080" x="224" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-14" parent="Img8a5IOjyJ7T48MLb8S-13" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#b3f0d9;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;align=center;" value="&lt;b&gt;Autenticación&lt;/b&gt;&lt;br&gt;&lt;i&gt;«servicio»&lt;/i&gt;&lt;br&gt;JWT · BCrypt&lt;br&gt;RF1 · RF8.2" vertex="1">
+          <mxGeometry height="100" width="235" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-15" parent="Img8a5IOjyJ7T48MLb8S-13" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#b3f0d9;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;align=center;" value="&lt;b&gt;GPS&lt;/b&gt;&lt;br&gt;&lt;i&gt;«servicio»&lt;/i&gt;&lt;br&gt;WebSocket · SSE&lt;br&gt;RF3 · RF9.3" vertex="1">
+          <mxGeometry height="100" width="235" x="285" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-16" parent="Img8a5IOjyJ7T48MLb8S-13" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#b3f0d9;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;align=center;" value="&lt;b&gt;Notificaciones&lt;/b&gt;&lt;br&gt;&lt;i&gt;«servicio»&lt;/i&gt;&lt;br&gt;Push · FCM · Email&lt;br&gt;RF4 · RF9.4" vertex="1">
+          <mxGeometry height="100" width="235" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-17" parent="Img8a5IOjyJ7T48MLb8S-13" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#b3f0d9;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;align=center;" value="&lt;b&gt;Administración&lt;/b&gt;&lt;br&gt;&lt;i&gt;«servicio»&lt;/i&gt;&lt;br&gt;Usuarios · Rutas&lt;br&gt;RF2 · RF7" vertex="1">
+          <mxGeometry height="100" width="255" x="795" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-19" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-14" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;fontColor=#666;" target="Img8a5IOjyJ7T48MLb8S-24" value="lógica de negocio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-22" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-17" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-29" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-24" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;fontColor=#666;" target="Img8a5IOjyJ7T48MLb8S-34" value="capa de datos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-32" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-27" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-38" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-34" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;fontColor=#666;" target="Img8a5IOjyJ7T48MLb8S-43" value="JDBC TCP 5432">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-39" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-35" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-40" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-36" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-41" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-37" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-42" parent="1" style="swimlane;startSize=25;fillColor=#eaf3de;strokeColor=#3B6D11;fontColor=#3B6D11;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="almacenamiento" vertex="1">
+          <mxGeometry height="120" width="1080" x="224" y="1176" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-43" parent="Img8a5IOjyJ7T48MLb8S-42" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#c0dd97;strokeColor=#3B6D11;fontColor=#173404;fontSize=11;align=center;" value="&lt;b&gt;PostgreSQL 15 — AWS RDS Multi-AZ&lt;/b&gt;&lt;br&gt;&lt;i&gt;«base de datos»&lt;/i&gt;&lt;br&gt;Usuario · Estudiante · Ruta · Parada · Trayecto · Coordenada · SafeZone · Notificacion · NotificationConfig · Auditoria · Ticket" vertex="1">
+          <mxGeometry height="72" width="910" x="80" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-44" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-43" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;fontColor=#666;" target="Img8a5IOjyJ7T48MLb8S-48" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-45" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-43" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-46" edge="1" parent="1" source="Img8a5IOjyJ7T48MLb8S-43" style="edgeStyle=orthogonalEdgeStyle;" target="Img8a5IOjyJ7T48MLb8S-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-47" parent="1" style="swimlane;startSize=25;fillColor=#fce8e8;strokeColor=#A32D2D;fontColor=#A32D2D;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="servicios externos" vertex="1">
+          <mxGeometry height="160" width="1080" x="224" y="1346" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-48" parent="Img8a5IOjyJ7T48MLb8S-47" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#f7c1c1;strokeColor=#A32D2D;fontColor=#501313;fontSize=11;align=center;" value="&lt;b&gt;Google Maps API&lt;/b&gt;&lt;br&gt;&lt;i&gt;«externo»&lt;/i&gt;&lt;br&gt;Maps + Directions&lt;br&gt;HTTPS · API Key · RF3.1 · RF3.5" vertex="1">
+          <mxGeometry height="100" width="310" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-49" parent="Img8a5IOjyJ7T48MLb8S-47" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#f7c1c1;strokeColor=#A32D2D;fontColor=#501313;fontSize=11;align=center;" value="&lt;b&gt;Firebase FCM&lt;/b&gt;&lt;br&gt;&lt;i&gt;«externo»&lt;/i&gt;&lt;br&gt;Push notifications&lt;br&gt;HTTPS · Server Key · RF4.1" vertex="1">
+          <mxGeometry height="100" width="310" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-50" parent="Img8a5IOjyJ7T48MLb8S-47" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#f7c1c1;strokeColor=#A32D2D;fontColor=#501313;fontSize=11;align=center;" value="&lt;b&gt;AWS SES / SMTP&lt;/b&gt;&lt;br&gt;&lt;i&gt;«externo»&lt;/i&gt;&lt;br&gt;Email notification&lt;br&gt;Puerto 587 · TLS · RF1.2.1" vertex="1">
+          <mxGeometry height="100" width="320" x="730" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-33" parent="1" style="swimlane;startSize=25;fillColor=#fffbe6;strokeColor=#854F0B;fontColor=#854F0B;fontSize=11;fontStyle=1;dashed=1;dashPattern=8 4;" value="capa de datos" vertex="1">
+          <mxGeometry height="150" width="1080" x="224" y="996" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-34" parent="Img8a5IOjyJ7T48MLb8S-33" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffe99e;strokeColor=#854F0B;fontColor=#412402;fontSize=11;align=center;" value="&lt;b&gt;Usuario / Rol / Sesión&lt;/b&gt;&lt;br&gt;&lt;i&gt;«repositorio»&lt;/i&gt;" vertex="1">
+          <mxGeometry height="90" width="235" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-35" parent="Img8a5IOjyJ7T48MLb8S-33" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffe99e;strokeColor=#854F0B;fontColor=#412402;fontSize=11;align=center;" value="&lt;b&gt;Estudiante / GPS&lt;/b&gt;&lt;br&gt;&lt;i&gt;«repositorio»&lt;/i&gt;&lt;br&gt;Coordinate · SafeZone" vertex="1">
+          <mxGeometry height="90" width="235" x="285" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-36" parent="Img8a5IOjyJ7T48MLb8S-33" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffe99e;strokeColor=#854F0B;fontColor=#412402;fontSize=11;align=center;" value="&lt;b&gt;Notificación / Config&lt;/b&gt;&lt;br&gt;&lt;i&gt;«repositorio»&lt;/i&gt;&lt;br&gt;NotificationConfig" vertex="1">
+          <mxGeometry height="90" width="235" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Img8a5IOjyJ7T48MLb8S-37" parent="Img8a5IOjyJ7T48MLb8S-33" style="html=1;rounded=1;whiteSpace=wrap;fillColor=#ffe99e;strokeColor=#854F0B;fontColor=#412402;fontSize=11;align=center;" value="&lt;b&gt;Auditoría / Tickets&lt;/b&gt;&lt;br&gt;&lt;i&gt;«repositorio»&lt;/i&gt;&lt;br&gt;Log errores · Soporte" vertex="1">
+          <mxGeometry height="90" width="255" x="795" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
